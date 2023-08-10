@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ToDoApp</string>
+    <string name="edTask">To do list </string>
+    <string name="btnAdd">Add</string>
+</resources>
