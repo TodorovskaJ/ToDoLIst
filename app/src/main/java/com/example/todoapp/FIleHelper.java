@@ -38,11 +38,8 @@ public class FIleHelper {
                 itemList = (ArrayList<String>) ois.readObject();
             } catch (FileNotFoundException e) {
                 itemList = new ArrayList<>();
-                throw new RuntimeException(e);
             } catch (IOException e) {
-                throw new RuntimeException(e);
             } catch (ClassNotFoundException e) {
-                throw new RuntimeException(e);
             }
         return itemList;
         }
